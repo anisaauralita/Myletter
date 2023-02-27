@@ -50,17 +50,15 @@ desired effect
 
 <?php include "parts/header/header.php" ?>
 
-    <?php include "parts/sidebar-left-1.php" ?>
+<?php include "parts/sidebar-left-1.php" ?>
+
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
   <?php include "konten.php" ?>
   </div>
   <!-- /.content-wrapper -->
 
-
-
-  <?php // include "parts/sidebar-right.php" ?>
-  
+<?php // include "parts/sidebar-right.php" ?>
 </div>
 <?php include "parts/footer.php" ?>
 <!-- ./wrapper -->

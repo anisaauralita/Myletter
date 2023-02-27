@@ -19,7 +19,7 @@ $jml_surat_keluar = mysqli_num_rows(mysqli_query($koneksi,"SELECT * FROM surat_k
                 <span class="info-box-icon bg-aqua"><i class="fa fa-download"></i></span>
 
                 <div class="info-box-content">
-                    <span class="info-box-text">SURAT MASUK</span>
+                    <span class="info-box-text">SURAT </span>
                     <span class="info-box-number"><?= $jml_surat_masuk?></span>
                 </div>
                 <!-- /.info-box-content -->

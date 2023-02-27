@@ -15,7 +15,7 @@ $data = mysqli_fetch_array($query);
 </head>
 <body>
 <section class="content-header">
-    <h1>Edit Surat</h1>
+    <h1>Edit Surat ku</h1>
 </section>
 <section class="content">
     <div class="row">

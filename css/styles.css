@@ -11329,7 +11329,7 @@ hr.divider-light {
 
 #mainNav {
   box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
-  background-color: #6f42c1;
+  background-color: #fff;
   transition: background-color 0.2s ease;
 }
 #mainNav .navbar-brand {

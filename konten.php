@@ -3,7 +3,7 @@ if (!defined('INDEX')) die("");
 
 $halaman=[
     "dashboard",
-    "tentang aplikasi",
+    "tentang",
     // menu surat_tampil_file.php masuk
     "surat_tampil",
     "surat_tambah",

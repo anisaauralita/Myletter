@@ -34,7 +34,7 @@
                     <a href="#">
                       <div class="pull-left">
                         <!-- User Image -->
-                        <img src="dist/img/logo_apk.png" class="img-circle" alt="User Image">
+                        <img src="dist/img/logo_surat.png" class="img-circle" alt="User Image">
                       </div>
                       <!-- Message title and timestamp -->
                       <h4>
@@ -119,18 +119,18 @@
                 <!-- Menu Toggle Button -->
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                     <!-- The user image in the navbar-->
-                    <img src="dist/img/logo.png" class="user-image" alt="User Image">
+                    <img src="dist/img/logo_surat.png" class="user-image" alt="User Image">
                     <!-- hidden-xs hides the username on small devices so only the image appears. -->
                     <span class="hidden-xs">User</span>
                 </a>
                         <ul class="dropdown-menu">
                 <!-- User image -->
                 <li class="user-header">
-                    <img src="dist/img/logo.png" class="img-circle" alt="User Image">
+                    <img src="dist/img/logo_surat.png" class="img-circle" alt="User Image">
 
                     <p>
                        <b><?= ucwords($_SESSION['username']) ?></b>
-                        <small>Member since Feb. 2023</small>
+                        <small>Member since . 2023</small>
                     </p>
                 </li>
               <!-- Menu Footer-->
