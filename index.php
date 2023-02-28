@@ -8,7 +8,7 @@ if (empty($_SESSION['username']) or
 {
     echo "<script>
      window.alert('Maaf, anda harus login terlebih dahulu');
-     window.location.href='login.php';
+     window.location.href='landing.php';
     </script>";
 } else {
     define('INDEX', true);

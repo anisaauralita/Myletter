@@ -51,9 +51,9 @@ $jml_surat_keluar = mysqli_num_rows(mysqli_query($koneksi,"SELECT * FROM surat_k
                 <h3 class="box-title">Letter Chart</h3>
 
                 <div class="box-tools pull-right">
-                    <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                    <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i><?= $jml_surat_masuk?>
                     </button>
-                    <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                    <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i><?= $jml_surat_keluar?></button>
                 </div>
             </div>
             <div class="box-body">
