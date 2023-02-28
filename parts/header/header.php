@@ -6,7 +6,25 @@
       <!-- mini logo for sidebar mini 50x50 pixels -->
       <span class="logo-mini"><b>ML</b></span>
       <!-- logo for regular state and mobile devices -->
-      <span class="logo-lg"><b>Myletter | </b>Admin</span>
+      <span class="logo-lg"><b>Myletter | </b>
+          <?php
+          switch ($_SESSION['role']){
+              case 1:
+                  echo "Admin";
+                  break;
+              case 2:
+                  echo "Operator";
+                  break;
+              case 3:
+                  echo "Manager";
+                  break;
+              case 4:
+                  echo "TU";
+                  break;
+          }
+          ?>
+
+      </span>
     </a>
 
     <!-- Header Navbar -->
@@ -129,8 +147,9 @@
                     <img src="dist/img/logo_smk.png" class="img-circle" alt="User Image">
 
                     <p>
-                       <b><?= ucwords($_SESSION['username']) ?></b>
-                        <small>Member since . 2023</small>
+                        <b><?= ucwords($_SESSION['username']) ?></b> <b> | </b>
+                        <b><?= ucwords($_SESSION['nama_role']) ?></b>
+                        <small> Member Since 2023</small>
                     </p>
                 </li>
               <!-- Menu Footer-->

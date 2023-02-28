@@ -8,7 +8,15 @@
          <div class="box">
             <div class="box-header">
 <!--              <h3 class="box-title">Data Table With Full Features</h3>-->
-                <a class="btn btn-md btn-info" href="?hal=surat_tambah"> Tambah Surat</a>
+                <a class="btn btn-md btn-info
+                <?php
+                //fungsi untuk menyembunyikan tombol aksi jika rolenya manager
+                if($_SESSION['role']==2 or $_SESSION['role']==3){
+                    echo "hidden";
+                }
+                ?>
+
+            " href="?hal=surat_tambah"> Tambah Surat</a>
             </div>
             <!-- /.box-header -->
             <div class="box-body">
@@ -22,7 +30,15 @@
                     <th>Perihal</th>
                     <th>Tanggal</th>
                     <th>Detail</th>
-                    <th>Aksi</th>
+                    <th class="
+<?php
+//fungsi untuk menyembunyikan tombol aksi jika rolenya manager
+if($_SESSION['role']==2 or $_SESSION['role']==3){
+    echo "hidden";
+}
+?>
+
+">Aksi</th>
                   </tr>
                 </thead>
                 <tbody>
@@ -42,7 +58,14 @@ while ($data = mysqli_fetch_array($query)) {
                   <td><?= $data['perihal']; ?></td>
                   <td><?= $data['tanggal']; ?></td>
                   <td><a href="?hal=surat_tampil_file&namafile=<?= $data['bukti']; ?>">Tampilkan</a></td>
-                    <td>
+                    <td class="
+<?php
+//fungsi untuk menyembunyikan tombol aksi jika rolenya manager
+if($_SESSION['role']==2 or $_SESSION['role']==3){
+    echo "hidden";
+}
+?>
+                    ">
                         <!-- Modifikasi tombol edit dan hapus-->
                         <a class="btn btn-sm btn-warning" href="?hal=surat_edit&id=<?= $data['id_surat_masuk'] ?>"> Edit </a>
                         <a class="btn btn-sm btn-danger" href="?hal=surat_delete&id=<?= $data['id_surat_masuk'] ?>"> Hapus </a>
