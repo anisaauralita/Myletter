@@ -56,22 +56,31 @@
                 <input type="password" name="password" class="form-control" placeholder="Password" required>
                 <span class="fa fa-unlock-alt form-control-feedback"></span>
             </div>
+            <div class="form-group has-feedback">
+                <select class="form-control" name="id_role" id="id_role" required>
+                    <option value=""> - Pilih Role - </option>
+                    <option value="1"> Admin </option>
+                    <option value="2"> Operator </option>
+                    <option value="3"> Manager </option>
+                </select>
+            </div>
             <div class="row">
-<!--                <div class="col-xs-8">
-                    <div class="checkbox icheck">
-                        <label>
-                            <input type="checkbox"> Remember Me
-                        </label>
-                    </div>
-                </div>
+                <!--                <div class="col-xs-8">
+                                    <div class="checkbox icheck">
+                                        <label>
+                                            <input type="checkbox"> Remember Me
+                                        </label>
+                                    </div>
+                                </div>-->
                 <!-- /.col -->
                 <div class="col-xs-4">
-                    <button type="submit" class="btn btn-primary btn-purple btn-flat">Masuk</button>
+                    <button type="submit" class="btn btn-primary btn-block btn-flat">Masuk</button>
                 </div>
                 <!-- /.col -->
             </div>
-        </form>
+    </div>
 
+    </form>
 
     </div>
     <!-- /.login-box-body -->

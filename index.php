@@ -49,9 +49,22 @@ desired effect
 <div class="wrapper">
 
 <?php include "parts/header/header.php" ?>
+    <?php include "parts/sidebar-left-1.php"?>
 
-<?php include "parts/sidebar-left-1.php" ?>
 
+  <!--  --><?php
+/*   switch ($_SESSION['id_role']) {
+        case 1: //admin
+            include "parts/sidebar-left-1.php";
+            break;
+        case 2: //operator
+            include "parts/sidebar-left-2.php";
+            break;
+        case 3: //manager
+            include "parts/sidebar-left-3.php";
+            break;
+    }
+    */?>
   <!-- Content Wrapper. Contains page content -->
   <div class="content-wrapper">
   <?php include "konten.php" ?>

@@ -5,6 +5,7 @@
 <section class="content">
  <div class="row">
      <div class="col-xs-12">
+
          <div class="box">
             <div class="box-header">
 <!--              <h3 class="box-title">Data Table With Full Features</h3>-->
@@ -23,13 +24,13 @@
                     <th>Tanggal</th>
                     <th>Penerima</th>
                     <th>Detail</th>
-                    <th class="
+                      <th class="
 <?php
-if($_SESSION["role"]==2 or $_SESSION["role"]==3 ){
-    echo "hidden";
+//fungsi untuk menyembunyikan tombol aksi jika rolenya manager
+if($_SESSION['role']==3){
+  echo "hidden";
 }
 ?>
-
 ">Aksi</th>
                   </tr>
                 </thead>
@@ -51,11 +52,18 @@ while ($data = mysqli_fetch_array($query)) {
                   <td><?= $data['tanggal']; ?></td>
                   <td><?= $data['penerima']; ?></td>
                   <td><a href="?hal=keluar_tampil_file&namafile=<?= $data['bukti']; ?>">Tampilkan</a></td>
-                  <td>
+                  <td class="
+<?php
+//fungsi untuk menyembunyikan tombol aksi jika rolenya operator
+if($_SESSION['id_role']==2){
+echo "hidden";
+}
+?>
+">
                      <!-- Modifikasi tombol edit dan hapus-->
                       <a class="btn btn-sm btn-warning" href="?hal=keluar_edit&id=<?= $data['id_surat_keluar'] ?>"> Edit </a>
                       <a class="btn btn-sm btn-danger" href="?hal=keluar_delete&id=<?= $data['id_surat_keluar'] ?>"> Hapus </a>
-                  </td>
+                  </>
                 </tr>
 <?php
 }
