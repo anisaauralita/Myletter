@@ -23,7 +23,14 @@
                     <th>Tanggal</th>
                     <th>Penerima</th>
                     <th>Detail</th>
-                    <th>Aksi</th>
+                    <th class="
+<?php
+if($_SESSION["role"]==2 or $_SESSION["role"]==3 ){
+    echo "hidden";
+}
+?>
+
+">Aksi</th>
                   </tr>
                 </thead>
                 <tbody>

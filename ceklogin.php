@@ -16,7 +16,7 @@ if ($jml > 0) {
     header('location: index.php');
 } else{
     echo "<script>
-        window.alert('Maaf, username dan password anda salah');
+        window.alert('Innalillahi, username dan password anda salah');
         window.location.href='login.php';
         </script>";
     }
