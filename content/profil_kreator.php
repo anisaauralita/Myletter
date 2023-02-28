@@ -1,7 +1,7 @@
 <section class="content-header">
     <h1>
         Profile Team-2
-    </h1>
+    </h1><br>
     <div class="row">
         <div class="col-md-8">
 
@@ -39,7 +39,7 @@
 
                     <hr>
 
-                    <strong><i class="fa fa-pencil margin-r-5"></i> Class</strong>
+                    <strong><i class="fa fa-university margin-r-5"></i> Class</strong>
 
                     <p class="text-muted">
                         XI Rekayasa Perangkat Lunak
@@ -93,7 +93,7 @@
 
                     <hr>
 
-                    <strong><i class="fa fa-pencil margin-r-5"></i> Skills</strong>
+                    <strong><i class="fa fa-university margin-r-5"></i>Class</strong>
 
                     <p class="text-muted">
                         XI Rekayasa Perangkat Lunak
@@ -148,7 +148,7 @@
 
                     <hr>
 
-                    <strong><i class="fa fa-pencil margin-r-5"></i> Class</strong>
+                    <strong><i class="fa fa-university margin-r-5"></i> Class</strong>
 
                     <p>
                         XI Rekayasa Perangkat Lunak
@@ -202,7 +202,7 @@
 
                     <hr>
 
-                    <strong><i class="fa fa-pencil margin-r-5"></i> Class</strong>
+                    <strong><i class="fa fa-university margin-r-5"></i> Class</strong>
 
                     <p class="text-muted">
                         XI Rekayasa Perangkat Lunak
@@ -257,7 +257,7 @@
 
                     <hr>
 
-                    <strong><i class="fa fa-pencil margin-r-5"></i> Class</strong>
+                    <strong><i class="fa fa-university margin-r-5"></i> Class</strong>
 
                     <p class="text-muted">
                       XI Rekayasa Perangkat Lunak

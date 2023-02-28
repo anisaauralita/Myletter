@@ -13,7 +13,7 @@
                   echo "Admin";
                   break;
               case 2:
-                  echo "Operator";
+                  echo "Guru";
                   break;
               case 3:
                   echo "Manager";
@@ -139,7 +139,7 @@
                     <!-- The user image in the navbar-->
                     <img src="dist/img/logo_smk.png" class="user-image" alt="User Image">
                     <!-- hidden-xs hides the username on small devices so only the image appears. -->
-                    <span class="hidden-xs">SMK-BP Subulul Huda</span>
+                    <span class="hidden-xs">user</span>
                 </a>
                         <ul class="dropdown-menu">
                 <!-- User image -->

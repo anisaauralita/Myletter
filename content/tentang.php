@@ -20,7 +20,8 @@
 
                     <p class="text-muted">
 
-                        <p>My Letter adalah sebuah aplikasi berbasis web manajemen surat yang dibuat khusus untuk TU SMK-BP Subulul Huda.
+                        <p>My Letter adalah sebuah aplikasi berbasis website yang bisa diakses melalui smartphone maupun komputer yang digunakan
+                        untuk memanajemen surat yang dibuat khusus untuk TU SMK-BP Subulul Huda.
                         My Letter dibuat untuk menyimpan data setiap adanya surat masuk maupun surat keluar, dilengkapi juga dengan fitur upload
                         file(berformat pdf) dan kolom pencarian sehingga admin tidak perlu lagi terlalu lama mencari file surat yang dibutuhkan,
                         My Letter juga dilengkapi dengan rekap jumlah surat masuk maupun surat keluar di bagian dashboard awal sehingga admin
@@ -40,8 +41,7 @@
                     </p>
                     <hr>
                     <strong><center><i class="fa fa-edit margin-r-5"></i>Catatan</center></strong>
-                    <p><center>--- Jangan berfikir dan berangan-angan kapan anda jadi sesuatu <br>
-                        tetapi berfikirlah untuk membangun pribadi yang pantas menjadi yang anda inginkan ---</center></p>
+                    <p><center>--- semoga bermanfaat 🙂 ---</center></p>
                     <hr>
                     <strong><center><i class="fa fa-map-marker margin-r-5"></i> Lokasi</center></strong>
                     <center><p class="text-muted">Kembangsawit, Rejosari, Kebonsari, Madiun</center></p>

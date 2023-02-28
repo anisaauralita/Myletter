@@ -60,7 +60,7 @@
                 <select class="form-control" name="id_role" id="id_role" required>
                     <option value=""> - Pilih Role - </option>
                     <option value="1"> Admin </option>
-                    <option value="2"> Operator </option>
+                    <option value="2"> Guru </option>
                     <option value="3"> Manager </option>
                     <option value="4"> TU </option>
                 </select>
