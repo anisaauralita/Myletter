@@ -18,6 +18,9 @@ if (!isset($_GET['hal'])){
      case 'keluar_tampil':
          echo "<title>Myletter | Surat Keluar</title>";
          break;
+     case 'profil_kreator':
+         echo "<title>Myletter | Profil Kreator</title>";
+         break;
      default:
          echo "<title>Myletter | Admin</title>";
  }

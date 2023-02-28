@@ -45,7 +45,7 @@ desired effect
 |               | sidebar-mini                            |
 |---------------------------------------------------------|
 -->
-<body class="hold-transition skin-purple sidebar-mini">
+<body class="hold-transition skin-purple   sidebar-mini">
 <div class="wrapper">
 
 <?php include "parts/header/header.php" ?>

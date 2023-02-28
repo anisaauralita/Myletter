@@ -4,6 +4,7 @@ if (!defined('INDEX')) die("");
 $halaman=[
     "dashboard",
     "tentang",
+    "profil_kreator",
     // menu surat_tampil_file.php masuk
     "surat_tampil",
     "surat_tambah",

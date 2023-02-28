@@ -29,7 +29,7 @@ $jml_surat_keluar = mysqli_num_rows(mysqli_query($koneksi,"SELECT * FROM surat_k
         <!-- /.col -->
         <div class="col-md-3 col-sm-6 col-xs-12">
             <div class="info-box">
-                <span class="info-box-icon bg-green"><i class="fa fa-upload"></i></span>
+                <span class="info-box-icon bg-yellow"><i class="fa fa-upload"></i></span>
 
                 <div class="info-box-content">
                     <span class="info-box-text">SURAT KELUAR</span>
@@ -42,4 +42,24 @@ $jml_surat_keluar = mysqli_num_rows(mysqli_query($koneksi,"SELECT * FROM surat_k
         <!-- /.col -->
     </div>
     <!-- /.row -->
+    <div class="col-md-15">
+        <!-- Bar chart -->
+        <div class="box box-default">
+            <div class="box-header with-border">
+                <i class="fa fa-bar-chart-o"></i>
+
+                <h3 class="box-title">Letter Chart</h3>
+
+                <div class="box-tools pull-right">
+                    <button type="button" class="btn btn-box-tool" data-widget="collapse"><i class="fa fa-minus"></i>
+                    </button>
+                    <button type="button" class="btn btn-box-tool" data-widget="remove"><i class="fa fa-times"></i></button>
+                </div>
+            </div>
+            <div class="box-body">
+                <div id="letter-chart" style="height: 300px;"></div>
+            </div>
+            <!-- /.box-body-->
+        </div>
+        <!-- /.box -->
 </section>
