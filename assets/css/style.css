@@ -488,7 +488,7 @@ h6 {
   height: 80vh;
   overflow: hidden;
   position: relative;
-  background: url("../img/hero-bg.jpg") top center;
+  background: url("images.jpg");
   background-size: cover;
   position: relative;
   margin-bottom: -90px;

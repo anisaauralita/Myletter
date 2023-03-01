@@ -66,10 +66,10 @@
         <div class="carousel-item active">
             <div class="carousel-container">
                 <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Myletter</span></h2>
-                <p class="animate__animated animate__fadeInUp">enjoy our application, hopefully according to your expectations.
+                <p class="animate__animated animate__fadeInUp"> enjoy our application, hopefully according to your expectations.
                 please provide criticism and suggestions so that we can develop this application even better.
                 Thank you for trusting us to become a team_2 that designed and implemented the My Letter application in this year's field work practice..</p>
-                <a href="login.php" class="btn-get-started animate__animated animate__fadeInUp scrollto">Get Started</a>
+                <a href="login.php" class="btn-get-started animate__animated animate__fadeInUp scrollto">Login</a>
             </div>
         </div>
 
@@ -126,7 +126,7 @@
 
         </div>
     </section><!-- End Icon Boxes Section -->
-
+<hr>
     <!-- ======= About Us Section ======= -->
     <section id="about" class="about">
         <div class="container" data-aos="fade-up">
@@ -139,7 +139,7 @@
             </div>
         </div>
     </section><!-- End About Us Section -->
-
+<hr>
     <!-- ======= Clients Section ======= -->
     <section id="clients" class="clients">
         <div class="container" data-aos="zoom-in">
@@ -149,9 +149,8 @@
                     <div class="swiper-slide"><img src="assets/img/clients/logo_smk.png" class="img-fluid" alt=""></div>
                     <div class="swiper-slide"><img src="assets/img/clients/logo_surat.png" class="img-fluid" alt=""></div>
                     <div class="swiper-slide"><img src="assets/img/clients/indo.png" class="img-fluid" alt=""></div>
-                    <div class="swiper-slide"><img src="assets/img/clients/client-4.png" class="img-fluid" alt=""></div>
+                    <div class="swiper-slide"><img src="assets/img/clients/logo_pondok.png" class="img-fluid" alt=""></div>
                 </div>
-                <div class="swiper-pagination"></div>
             </div>
 
         </div>
@@ -216,6 +215,7 @@
 
         </div>
     </section><!-- End Why Us Section -->
+    <hr><hr>
     <!-- ======= Team Section ======= -->
     <section id="team" class="team section-bg">
         <div class="container" data-aos="fade-up">
@@ -257,7 +257,7 @@
                                 <a href=""><i class="ri-twitter-fill"></i></a>
                                 <a href=""><i class="ri-facebook-fill"></i></a>
                                 <a href=""><i class="ri-instagram-fill"></i></a>
-                                <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                                <a href=""> <i class="ri-linkedin-box-fill"></i></a>
                             </div>
                         </div>
                     </div>
@@ -283,7 +283,7 @@
 
                 <div class="col-lg-6 mt-4" data-aos="fade-up" data-aos-delay="400">
                     <div class="member d-flex align-items-start">
-                        <div class="pic"><img src="assets/img/team/aya.jpg" class="img-fluid" alt=""></div>
+                        <div class="pic"><img src="assets/img/team/aya.JPG" class="img-fluid" alt=""></div>
                         <div class="member-info">
                             <h4>Anisa Auralita Aszahra</h4>
                             <span>Web Programmer</span>
@@ -299,28 +299,28 @@
                 </div>
 
                 <div class="col-lg-6 mt-4" data-aos="fade-up" data-aos-delay="400">
-                   <div class="member d-flex align-items-start">
-                       <div class="pic"><img src="assets/img/team/burhan.jpg" class="img-fluid" alt=""></div>
-                       <div class="member-info">
+                    <div class="member d-flex align-items-start">
+                        <div class="pic"><img src="assets/img/team/burhan.jpg" class="img-fluid" alt=""></div>
+                        <div class="member-info">
                            <h4>Burhan Yusuf Hasyim</h4>
-                        <span>UI Design</span>
-                        <p>she is a vocational high school student. who currently doubles as IU Design in team_2 at this years street vendors.</p>
-                        <div class="social">
-                            <a href=""><i class="ri-twitter-fill"></i></a>
-                            <a href=""><i class="ri-facebook-fill"></i></a>
-                            <a href=""><i class="ri-instagram-fill"></i></a>
-                            <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                           <span>UI Design</span>
+                           <p>she is a vocational high school student. who currently doubles as IU Design in team_2 at this years street vendors.</p>
+                           <div class="social">
+                                <a href=""><i class="ri-twitter-fill"></i></a>
+                                <a href=""><i class="ri-facebook-fill"></i></a>
+                                <a href=""><i class="ri-instagram-fill"></i></a>
+                                <a href=""> <i class="ri-linkedin-box-fill"></i> </a>
+                           </div>
                         </div>
-                   </div>
-               </div>
-
-                <div class="col-lg-810 mt-4" data-aos="fade-up" data-aos-delay="400">
-                    <div class="member d-flex align-items-start-ri">
+                    </div>
+                </div>
+                <div class="col-lg-6 mt-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="member d-flex align-items-start">
                          <div class="pic"><img src="assets/img/team/zahra.JPG" class="img-fluid" alt=""></div>
-                            <div class="member-info">
+                         <div class="member-info">
                              <h4>Azahra Amalia Putri</h4>
-                            <span>UI Design</span>
-                            <p>she is a vocational high school student. who currently doubles as IU Design in team_2 at this years street vendors.</p>
+                             <span>UI Design</span>
+                             <p>she is a vocational high school student. who currently doubles as IU Design in team_2 at this years street vendors.</p>
                             <div class="social">
                                 <a href=""><i class="ri-twitter-fill"></i></a>
                                 <a href=""><i class="ri-facebook-fill"></i></a>
@@ -329,14 +329,10 @@
                             </div>
                         </div>
                     </div>
-           </div>
+                </div>
+            </div>
 </section>
     <!-- End Team Section -->
-
-
-
-</main><!-- End #main -->
-
 <!-- ======= Footer ======= -->
 <footer id="footer">
     <div class="container">
