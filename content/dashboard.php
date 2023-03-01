@@ -8,7 +8,9 @@ $jml_surat_keluar = mysqli_num_rows(mysqli_query($koneksi,"SELECT * FROM surat_k
 ?>
 
 <section class="content-header">
-<h1>Dashboard</h1>
+<h1>
+Dashboard
+</h1>
 </section>
 <!-- Main content -->
 <section class="content">

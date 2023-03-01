@@ -26,7 +26,7 @@ if (!isset($_GET['hal'])){
  }
   ?>
     <!-- Favicon-->
-  <link rel="icon" type="image/x-icon" href="landing/assets/ion_icon_favicon.png" />
+  <link rel="icon" type="image/x-icon" href="landing/assets/img/ion_icon_favicon.png" />
   <!-- Tell the browser to be responsive to screen width -->
   <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
   <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">

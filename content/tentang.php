@@ -2,7 +2,7 @@
     <h1><center><b>MY LETTER</b></center></h1>
 </section>
 <div class="box-body box-profile">
-    <img class="profile-user-img img-responsive img-circle" src="dist/img/logo_surat.png"
+    <img class="profile-user-img img-responsive img-circle" src="dist/img/logo-surat.png"
          alt="User profile picture">
 </div>
 <!-- Main content -->

@@ -70,10 +70,10 @@ desired effect
   <?php include "konten.php" ?>
   </div>
   <!-- /.content-wrapper -->
-
+    <?php include "parts/footer.php" ?>
 <?php // include "parts/sidebar-right.php" ?>
 </div>
-<?php include "parts/footer.php" ?>
+
 <!-- ./wrapper -->
 
 <?php include "parts/js-files.php" ?>
