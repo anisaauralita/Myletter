@@ -69,7 +69,7 @@
                 <p class="animate__animated animate__fadeInUp"> enjoy our application, hopefully according to your expectations.
                 please provide criticism and suggestions so that we can develop this application even better.
                 Thank you for trusting us to become a team_2 that designed and implemented the My Letter application in this year's field work practice..</p>
-                <a href="login.php" class="btn-get-started animate__animated animate__fadeInUp scrollto">Login</a>
+                <a href="login.php" class="btn-get-started animate__animated animate__fadeInUp scrollto">Get Started</a>
             </div>
         </div>
 

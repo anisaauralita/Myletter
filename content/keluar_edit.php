@@ -15,7 +15,7 @@ $data = mysqli_fetch_array($query);
 </head>
 <body>
 <section class="content-header">
-    <h1>Edit Surat ku</h1>
+    <h1>Edit Surat</h1>
 </section>
 <section class="content">
     <div class="row">
@@ -62,7 +62,7 @@ $data = mysqli_fetch_array($query);
                     </div>
                     <div class="form-group">
                         <label for="bukti">Bukti</label>
-                        <input type="file" class="form-control" name="bukti" id="bukti" placeholder="Bukti" accept="application/pdf" >
+                        <input type="file" class="form-control" name="bukti" id="bukti" placeholder="Bukti" accept="application/pdf">
                     </div>
 
                      <div class="box-footer">
