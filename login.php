@@ -40,7 +40,7 @@
 
 <div class="login-box">
     <div class="login-logo">
-        <a href="login.php"><b> Myletter 📩</b></a>
+        <a href="login.php"><b> My Letter 📩</b></a>
     </div>
     <!-- /.login-logo -->
     <div class="login-box-body">

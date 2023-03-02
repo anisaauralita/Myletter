@@ -8,6 +8,53 @@
             <!-- Profile Image -->
             <div class="box box-ungu">
                 <div class="box-body box-profile">
+                    <img class="profile-user-img img-responsive img-circle" src="assets/img/team/pak_yusuf.jpg" alt="User profile picture">
+
+                    <h3 class="profile-username text-center">Yusuf Afandi S. T</h3>
+
+                    <p class="text-muted text-center">Tutor</p>
+                </div>
+                <!-- /.box-body -->
+            </div>
+            <!-- /.box -->
+
+            <!-- About Me Box -->
+            <div class="box box-default">
+                <div class="box-header with-border">
+                  <h3 class="box-title">About Me</h3>
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body">
+                    <strong><i class="fa fa-hospital-o margin-r-5"></i> Work</strong>
+
+                    <p class="text-muted">
+                        Head of Installation of Hospital Information Systems
+                        and Information Technology at the UGM hospital.
+                    </p>
+
+                    <hr>
+
+                    <strong><i class="fa fa-map-marker margin-r-5"></i> Address</strong>
+
+                    <p class="text-muted">Sleman, Yogyakarta</p>
+
+                    <hr>
+
+                    <strong><i class="fa fa-file-text-o margin-r-5"></i> Notes</strong>
+
+                    <p>Tetap semangat dan jangan menyerah.</p>
+                </div>
+                <!-- /.box-body -->
+            </div>
+            <!-- /.box -->
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8">
+
+            <!-- Profile Image -->
+            <div class="box box-ungu">
+                <div class="box-body box-profile">
                     <img class="profile-user-img img-responsive img-circle" src="dist/img/salman.jpg" alt="User profile picture">
 
                     <h3 class="profile-username text-center">Mohamad Salman Alfarisi</h3>

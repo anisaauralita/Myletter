@@ -5,7 +5,6 @@
 <section class="content">
  <div class="row">
      <div class="col-xs-12">
-
          <div class="box">
             <div class="box-header">
 <!--              <h3 class="box-title">Data Table With Full Features</h3>-->
@@ -16,7 +15,7 @@
                         echo "hidden";
                     }
                     ?>
-                   "href="?hal=keluar_tambah"> Tambah Surat</a>
+                "href="?hal=keluar_tambah"> Tambah Surat</a>
 
             </div>
             <!-- /.box-header -->
@@ -67,11 +66,11 @@ if($_SESSION['role']==2 or $_SESSION['role']==3){
   echo "hidden";
 }
 ?>
-">
+                   ">
                      <!-- Modifikasi tombol edit dan hapus-->
                       <a class="btn btn-sm btn-warning" href="?hal=keluar_edit&id=<?= $data['id_surat_keluar'] ?>"> Edit </a>
                       <a class="btn btn-sm btn-danger" href="?hal=keluar_delete&id=<?= $data['id_surat_keluar'] ?>"> Hapus </a>
-                  </>
+                  </td>
                 </tr>
 <?php
 }

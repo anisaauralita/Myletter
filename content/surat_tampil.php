@@ -7,20 +7,20 @@
      <div class="col-xs-12">
          <div class="box">
             <div class="box-header">
-<!--              <h3 class="box-title">Data Table With Full Features</h3>-->
-                <a class="btn btn-md btn-info
-                <?php
-                //fungsi untuk menyembunyikan tombol aksi jika rolenya manager
-                if($_SESSION['role']==2 or $_SESSION['role']==3){
-                    echo "hidden";
-                }
-                ?>
+        <!--              <h3 class="box-title">Data Table With Full Features</h3>-->
+                 <a class="btn btn-md btn-info
+                    <?php
+                    //fungsi untuk menyembunyikan tombol aksi jika rolenya manager
+                    if($_SESSION['role']==2 or $_SESSION['role']==3){
+                        echo "hidden";
+                    }
+                    ?>
+                 " href="?hal=surat_tambah"> Tambah Surat</a>
 
-            " href="?hal=surat_tambah"> Tambah Surat</a>
             </div>
             <!-- /.box-header -->
             <div class="box-body">
-              <table id="example1" class="table  table-striped">
+              <table id="example1" class="table table-bordered table-stripe">
                 <thead>
                   <tr>
                     <th>No</th>

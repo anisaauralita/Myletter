@@ -41,7 +41,7 @@
 <header id="header" class="fixed-top d-flex align-items-center ">
     <div class="container d-flex align-items-center justify-content-between">
 
-        <h1 class="logo"><a href="index.html">Myletter</a></h1>
+        <h1 class="logo"><a href="index.html">My Letter</a></h1>
         <!-- Uncomment below if you prefer to use an image logo -->
         <!-- <a href=index.html" class="logo"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
 
@@ -65,7 +65,7 @@
         <!-- Slide 1 -->
         <div class="carousel-item active">
             <div class="carousel-container">
-                <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Myletter</span></h2>
+                <h2 class="animate__animated animate__fadeInDown">Welcome to <span>My Letter</span></h2>
                 <p class="animate__animated animate__fadeInUp"> enjoy our application, hopefully according to your expectations.
                 please provide criticism and suggestions so that we can develop this application even better.
                 Thank you for trusting us to become a team_2 that designed and implemented the My Letter application in this year's field work practice..</p>
@@ -162,8 +162,8 @@
 
             <div class="row">
 
-                <div class="col-lg-5 align-items-stretch position-relative video-box" style='background-image: url("assets/img/why-us.jpg");' data-aos="fade-right">
-                    <a href="https://www.youtube.com/watch?v=LXb3EKWsInQ" class="glightbox play-btn mb-4"></a>
+                <div class="col-lg-5 align-items-stretch position-relative video-box" style='background-image: url("assets/img/aku.jpg");' data-aos="fade-right">
+                    <a href="https://youtu.be/rVT9e1AC9ew" class="glightbox play-btn mb-4"></a>
                 </div>
 
                 <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch" data-aos="fade-left">
@@ -233,7 +233,7 @@
                             <h4>Yusuf Afandi S.T</h4>
                             <span>Tutor</span>
                             <p>
-                                He is an IT manager at the UGM Yogyakarta hospital,
+                               Head of Installation of Hospital Information Systems and Information Technology at the UGM hospital,
                                 in this years street vendors he became the supervisor for team_2 in project work.</p>
                             <div class="social">
                                 <a href=""><i class="ri-twitter-fill"></i></a>
