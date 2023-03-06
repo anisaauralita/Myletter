@@ -224,8 +224,7 @@
             </div>
 
             <div class="row">
-
-                <div class="col-lg-6 mt-4" data-aos="fade-up" data-aos-delay="100">
+                <div class="col-lg-6 mt-4" data-aos="fade-up" data-aos-delay="400">
                     <div class="member d-flex align-items-start">
                         <div class="pic"><img src="assets/img/team/pak_yusuf.jpg" class="img-fluid" alt=""></div>
                         <div class="member-info">
@@ -262,7 +261,7 @@
                     </div>
                 </div>
 
-                <div class="col-lg-6 mt-4" data-aos="fade-up" data-aos-delay="300">
+                <div class="col-lg-6 mt-4" data-aos="fade-up" data-aos-delay="400">
                     <div class="member d-flex align-items-start">
                         <div class="pic"><img src="assets/img/team/salman.JPG" class="img-fluid" alt=""></div>
                         <div class="member-info">
