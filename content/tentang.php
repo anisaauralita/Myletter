@@ -12,7 +12,7 @@
             <!-- About Me Box -->
             <div class="box box-ungu">
                 <div class="box-header with-border">
-                    <h3 class="box-title">Tentang Aplikasi</h3>
+                    <h3 class="box-title" text-align="center">Tentang Aplikasi</h3>
                 </div>
                 <!-- /.box-header -->
                 <div class="box-body">
