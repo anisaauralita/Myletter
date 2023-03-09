@@ -67,7 +67,7 @@ if($_SESSION['role']==2 or $_SESSION['role']==3){
 ?>
                     ">
                         <!-- Modifikasi tombol edit dan hapus-->
-                        <a class="btn btn-sm btn-warning" href="?hal=surat_edit&id=<?= $data['id_surat_masuk'] ?>"> Edit </a>
+                        <a class="btn btn-sm btn-warning" href="?hal=surat_edit&id=<?= $data['id_surat_masuk'] ?>"> Edit</a>
                         <a class="btn btn-sm btn-danger" href="?hal=surat_delete&id=<?= $data['id_surat_masuk'] ?>"> Hapus </a>
                     </td>
                 </tr>
